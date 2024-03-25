@@ -1,0 +1,49 @@
+.sec1_campaign {
+    width: 100%;
+    padding: 5%;
+}
+.title_sec1_campaign {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 0 2rem 0;
+}
+.box_input_campaign {
+    display: flex;
+    width: 70%;
+    margin: 2rem 0;
+    // gap: 5%;
+}
+.input_campaign {
+    min-width: 45%;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-bottom: 0.1vw solid grey;
+}
+.button_campaign {
+    width: 20%;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-bottom: 0.1vw solid grey;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+}
+.dis_sec1_campaign {
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: rgb(46, 46, 46);
+}
+@media screen and (max-width: 1023px) {
+    .input_campaign {
+        min-width: 70%;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        border-bottom: 0.1vw solid grey;
+    }
+}

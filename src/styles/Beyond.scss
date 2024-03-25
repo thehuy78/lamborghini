@@ -1,0 +1,383 @@
+.beyond__container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    // background-color: aquamarine;
+}
+
+.image__beyond {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    // transform: translateY(-10%);
+    background-image: url('../assets/image/beyond/baner_image_beyond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.back__link__box {
+    position: absolute;
+
+    padding: 0.5rem 5rem 0.5rem 1rem;
+    top: 20%;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+    left: 0;
+    background-color: black;
+}
+
+.back__link {
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.title__beyond__box1 {
+    position: absolute;
+    width: 30%;
+    height: 20vh;
+
+    bottom: 45%;
+
+    left: 8%;
+}
+
+.title__beyond__1 {
+
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 650;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+}
+
+.title__beyond__2 {
+    letter-spacing: 0;
+    color: white;
+    font-size: 6.5rem;
+    font-weight: 650;
+
+}
+
+.hexagon_beyond {
+    background-color: rgba(255, 255, 255, 0.326);
+
+    bottom: 8%;
+    z-index: 50;
+    left: -30%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgb(254, 254, 254);
+    width: 3vw;
+    height: 3vw;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    cursor: pointer;
+
+    /* Màu và độ dày của viền */
+}
+
+.hexagon_beyond:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    z-index: 50 !important;
+}
+
+.active1 {
+    animation: leftright 1s ease-in-out;
+
+}
+
+
+.active2 {
+    animation: scaleE 1.5s ease-in-out;
+
+}
+
+.active3 {
+    animation: revealText 3s ease-in-out;
+
+}
+
+@keyframes leftright {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes scaleE {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes revealText {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .sec1__beyond {
+        width: 100%;
+        margin-top: 3%;
+
+    }
+
+    .box_sec1_beyond {
+        width: 94%;
+        margin-left: 3%;
+        height: max-content;
+    }
+
+    .image__sec1__beyond {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .box_title_sec1_beyond {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .box_dis__beyond {
+
+        width: 100%;
+        margin: 3rem 0;
+    }
+
+    .title_sec1_beyond {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .dis_sec1_beyond {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        margin: 1.9rem 0;
+        font-weight: 100;
+    }
+
+    .box_link_sec1_beyond {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hexagon_beyond__1 {
+        display: none;
+    }
+
+    .dis_link_beyond {
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding: 1rem 4rem;
+        border: 0.1vw solid rgba(128, 128, 128, 0.309);
+        transition: 0.3s;
+    }
+
+    .dis_link_beyond:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .sec2__beyond {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+
+
+    }
+
+    .sec2__beyond__box {
+        width: 100%;
+
+        margin: 2% 0;
+    }
+
+    .image__sec2__beyond {
+        width: 100%;
+    }
+
+    .dis__sec2_beyond {
+        width: 100%;
+        padding: 3%;
+
+    }
+
+    .date__sec2_beyond {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .title__sec2_beyond {
+        font-size: 3rem;
+        margin: 1.5rem 0;
+        font-weight: bold;
+    }
+
+    .readmore__sec2_beyond {
+        font-size: 1.7rem;
+        display: inline-block;
+        border: 0.1vw solid rgba(128, 128, 128, 0.386);
+        padding: 1rem 7rem;
+    }
+
+    .readmore__sec2_beyond:hover {
+        background-color: black;
+        color: white;
+    }
+
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+    //sec1
+    .sec1__beyond {
+        width: 100%;
+        position: relative;
+
+        // margin: 3% 0;
+    }
+
+    .box_sec1_beyond {
+        width: 100%;
+        transform: translateX(-30%);
+    }
+
+    .image__sec1__beyond {
+        width: 100%;
+        transform: scaleY(0.8);
+    }
+
+    .box_title_sec1_beyond {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+        background-color: rgb(255, 255, 255);
+        clip-path: polygon(70% 0, 100% 0, 100% 90%, 40% 90%);
+    }
+
+    .box_dis__beyond {
+        margin-left: 65%;
+        margin-top: 14%;
+        width: 23%;
+    }
+
+    .title_sec1_beyond {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    .dis_sec1_beyond {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 1.7rem 0;
+        font-weight: 100;
+    }
+
+    .box_link_sec1_beyond {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hexagon_beyond__1 {
+        width: 2.5vw;
+        height: 3vw;
+        margin-right: 1.5rem;
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.378);
+    }
+
+    .hexagon_beyond__1:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    .dis_link_beyond {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+
+    .sec2__beyond {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+
+
+    }
+
+    .sec2__beyond__box {
+        width: 100%;
+        display: flex;
+        margin: 2% 0;
+    }
+
+    .image__sec2__beyond {
+        width: 50%;
+    }
+
+    .dis__sec2_beyond {
+        padding-left: 5%;
+        position: relative;
+        width: 100%;
+
+    }
+
+    .date__sec2_beyond {
+        position: absolute;
+        top: 0;
+    }
+
+    .title__sec2_beyond {
+        position: absolute;
+        top: 20%;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    .readmore__sec2_beyond {
+        position: absolute;
+        bottom: 0;
+        border: 0.1vw solid rgba(128, 128, 128, 0.386);
+        padding: 1rem 4rem;
+    }
+
+    .readmore__sec2_beyond:hover {
+        background-color: black;
+        color: white;
+    }
+}

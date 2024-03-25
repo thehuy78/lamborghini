@@ -1,0 +1,32 @@
+:root {
+    --color_background: grey;
+    --fs_title_pc: 2rem;
+    --fs_title_mobile: 2rem;
+    --fs_discriber_pc: 2rem;
+    --fs_discriber_mobile: 2rem;
+}
+@media screen and (max-width: 1023px) {
+    .title {
+        margin: 2rem 0;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    .discriber {
+        font-size: 1.4rem;
+        line-height: 2.7rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        font-size: 1.8rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+    .discriber {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 100;
+    }
+}

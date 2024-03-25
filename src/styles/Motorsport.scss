@@ -1,0 +1,1177 @@
+.motorsport {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    // background-color: aquamarine;
+}
+
+.baner__motorsport {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../assets/image/motorsport/baner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.title__motorsport_box1 {
+    position: absolute;
+    width: 50%;
+    height: 20vh;
+
+    bottom: 40%;
+    z-index: 50;
+    left: 10%;
+}
+
+@keyframes leftright {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes topbot {
+    0% {
+        transform: translateY(200%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes scaleE {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes revealText {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* Áp dụng keyframes vào phần tử */
+.active1 {
+    animation: leftright 1.2s ease-in-out;
+
+}
+
+.active2 {
+    animation: topbot 1.4s ease-in-out;
+
+}
+
+.active3_motorsport {
+    animation: scaleE 2s ease-in-out;
+
+}
+
+.active4 {
+    animation: revealText 3s ease-in-out;
+
+}
+
+
+
+.title__motorsport__1 {
+
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 650;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+}
+
+.title__motorsport__2 {
+
+    color: white;
+    font-size: 6.2rem;
+    font-weight: 650;
+
+}
+
+.title__motorsport_box2 {
+    position: absolute;
+    bottom: 8%;
+    z-index: 50;
+    left: 65%;
+
+}
+
+.title__motorsport__3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 3%;
+
+}
+
+.title__motorsport__4 {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 300;
+    height: 3%;
+
+}
+
+.hexagon__motorsport {
+    background-color: rgba(255, 255, 255, 0.326);
+    position: absolute;
+    bottom: 8%;
+    z-index: 50;
+    left: -30%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    width: 3.5vw;
+    height: 4vw;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    cursor: pointer;
+
+    /* Màu và độ dày của viền */
+}
+
+.hexagon__motorsport:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.hexagon__motorsport_1{
+   background-color: rgba(255, 255, 255, 0.326);
+    bottom: 8%;
+    z-index: 50;
+    left: -30%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    width: 3.5vw;
+    height: 4vw;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    cursor: pointer;
+}
+.hexagon__motorsport_1:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.sec9__motorsport{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(185, 184, 184, 0.119);
+   
+}
+.title__sec9__motorsport{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1%;
+    padding: 4rem 0;
+}
+.box__sec9__motorsport{
+     display: flex;
+    
+    width: 60%;
+
+  justify-content: center;
+   margin:0 20%;
+   align-items: center;
+   gap: 0;
+ 
+   flex-wrap: wrap;
+}
+.box__image__Sec9__motorsport{
+    width: fit-content;
+    margin: 0;
+    margin-bottom: 3%;
+    // min-width: 300px;
+    padding: 0;
+  
+    // background-color: aqua;
+    
+}
+.image__sec9_motorsport{
+    width: 70%;
+    margin: 0;
+}
+
+
+
+//css sec2 pc
+@media screen and (max-width:1023px) {
+  .sec2_motorsport_mobile {
+//   display: flex;
+  overflow: hidden;
+}
+
+// .box1__sec2_motorsport,
+// .box2__sec2_motorsport,
+// .box3__sec2_motorsport {
+// //   flex: 0 0 100%;
+//   transition: transform 0.3s ease-in-out;
+// }
+.sec2_motorsport{
+    display: none;
+}
+.title_sec2_motorsport{
+    margin: 2rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 90%;
+    margin: 5%;
+}
+
+.slider__motorsport{
+    width: 90%;
+    margin: 5%;
+  
+}
+.box1__sec2_motorsport_mobile, .box1__sec2_motorsport_mobile, .box1__sec2_motorsport_mobile{
+    width: 70%;
+    height: auto;
+}
+.box1__immage__sec2_motorsport{
+    width: 100%;
+}
+.immage1__sec2_motorsport{
+    width: 100%;
+}
+.date1__sec2_motorsport_mobile{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.title1__sec2_motorsport_mobile{
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 2rem;
+    height: 4.2rem;
+    overflow: hidden;
+}
+.sec3_motorsport{
+    width: 94%;
+    margin: 3%;
+}
+.box__image__sec3_motorsport{
+    width: 100%;
+    overflow: hidden;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+}
+.immage1__sec3_motorsport{
+    width: 100%;
+    transform: scale(1.7);
+}
+.box__sec3_motorsport_content{
+    width: 100%;
+    height: 100%;
+
+ 
+    // margin-left: 70%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    margin: 4% 0;
+}
+.sec3_motorsport_title{
+    width: 100%;
+  
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   
+}
+.sec3_motorsport_dis{
+    
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+ font-weight: 100;
+    // margin-top: 5%;
+}
+
+
+.sec4_motorsport{
+    width: 94%;
+    margin: 3%;
+}
+.box__image__sec4_motorsport{
+    width: 100%;
+    overflow: hidden;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+}
+.immage1__sec4_motorsport{
+    width: 100%;
+    transform: scale(1.7);
+}
+.box__sec4_motorsport_content{
+    width: 100%;
+    height: 100%;
+
+ 
+    // margin-left: 70%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    margin: 4% 0;
+    
+}
+.sec4_motorsport_title{
+    width: 100%;
+  
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   
+}
+.immage1_logo_sec4_motorsport{
+    width: 30%;
+}
+.sec4_motorsport_dis{
+    
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: 100;
+
+    // margin-top: 5%;
+}
+.link__sec4__motorsport{
+    width: fit-content;
+    margin: 3rem 0;
+    padding: 1.5rem 10rem;
+    border: 0.1vw solid grey;
+    font-size: 1.5rem;
+}
+
+ //sec5
+.sec5_motorsport{
+    width: 100%;
+   
+     margin:  0;
+}
+.box__sec5__motorsport{
+    width: 94%;
+    margin:0 3%;
+
+
+   
+}
+.box__image__sec5_motorsport{
+    width: 100%;
+
+ 
+
+ 
+}
+.immage1__sec5_motorsport{
+    width: 100%;
+}
+.box__sec5_motorsport_content{
+    width: 100%;
+    height: 100%;
+ 
+ 
+    // margin-left: 70%;
+ 
+    top: 0;
+    left: 0;
+    margin: 2% 0;
+
+}
+    .sec5_motorsport_title{
+
+ width: 100%;
+  
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   
+}
+.immage1_logo_sec5_motorsport{
+    width: 50%;
+}
+.sec5_motorsport_dis{
+
+font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: 100;
+}
+.sec5_motorsport_dis{
+    
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: 100;
+
+    // margin-top: 5%;
+}
+.link__sec5__motorsport{
+    width: 100%;
+    margin: 3rem 0;
+    padding: 1.5rem 10rem;
+    border: 0.1vw solid grey;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.sec6_motorsport{
+    width: 94%;
+    margin-left: 3%;
+}
+.box1_image_sec6_motorsport, .box3_image_sec6_motorsport{
+    display: none;
+}
+.box2_image_sec6_motorsport{
+    width: 100%;
+}
+.immage2__sec6_motorsport{
+    width: 100%;
+}
+
+.box_content_sec6_motorsport{
+   
+    margin: 2% 0;
+
+}
+    .title__sec6__motorsport{
+
+ width: 100%;
+  
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   
+}
+
+.dis__sec6__motorsport{
+
+font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: 100;
+}
+
+.link__sec6__motor_sport{
+    width: 100%;
+    margin: 3rem 0;
+    padding: 1.5rem 10rem;
+    border: 0.1vw solid grey;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+//sec7
+.sec7__motorsport{
+    width: 94%;
+    margin-left: 3%;
+}
+.box2__image__sec7__mortorsport{
+    display: none;
+}
+.box1__image__sec7__mortorsport{
+    width: 100%;
+}
+.image1__sec7__mortorsport{
+    width: 100%;
+}
+
+.box2__sec7__motorsport{
+   
+    margin: 2% 0;
+
+}
+    .title__sec7__motorsport{
+
+ width: 100%;
+  
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   
+}
+
+.dis__sec7__motorsport{
+
+font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: 100;
+}
+
+.link__sec7__motorsport{
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 1.5rem 10rem;
+    border: 0.1vw solid grey;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.box__sec9__motorsport{
+     display: flex;
+    
+    width: 90%;
+
+  justify-content: center;
+   margin:0 5%;
+   align-items: center;
+   gap: 0;
+ 
+   flex-wrap: wrap;
+}
+
+
+
+
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .slip_box_sec2_motorsport {
+        display: grid;
+        grid-template-areas: "a"
+                             "b"
+                             "c";
+        gap: 1%;
+    }
+    .sec5_motorsport_title{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+   
+}
+.immage1_logo_sec5_motorsport{
+    width: 50%;
+}
+.sec5_motorsport_dis{
+      width: 45%;
+    margin-left:5%;
+     font-size: 1rem;
+    line-height: 1.5rem;
+    // margin-top: 5%;
+}
+.link__sec5__motorsport{
+    position: relative;
+    margin: 2rem 0;
+    font-size: 1rem;
+     width: 25%;
+    margin-left: 5%;
+    font-weight: 500;
+    border-bottom: 0.1vw solid grey;
+}
+
+  .title__sec6__motorsport{
+    width: 100%;
+ 
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+   
+}
+
+.dis__sec6__motorsport{
+      width: 100%;
+
+     font-size: 1rem;
+    line-height: 1.5rem;
+    // margin-top: 5%;
+}
+.link__sec6__motor_sport{
+    position: relative;
+    margin: 2rem 0;
+    font-size: 1rem;
+      width: 80%;
+   
+    font-weight: 500;
+    border-bottom: 0.1vw solid grey;
+}
+.box_content_sec6_motorsport{
+    width: 45%;
+    margin: 0 0 0 50%;
+}
+}
+@media screen and (min-width: 1200px) {
+    .slip_box_sec2_motorsport {
+        display: grid;
+        grid-template-areas: "a b c";
+        gap: 1%;
+        
+    }
+    .read_more_motorsport{
+           margin-top: 4rem;
+    }
+    .sec5_motorsport_title{
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+   
+}
+.immage1_logo_sec5_motorsport{
+    width: 70%;
+}
+.sec5_motorsport_dis{
+      width: 35%;
+    margin-left:15%;
+     font-size: 1rem;
+    line-height: 1.5rem;
+    // margin-top: 5%;
+}
+.link__sec5__motorsport{
+    position: relative;
+    margin: 2rem 0;
+    font-size: 1rem;
+     width: 15%;
+    margin-left: 15%;
+    font-weight: 500;
+    border-bottom: 0.1vw solid grey;
+}
+
+    .title__sec6__motorsport{
+    width: 100%;
+ 
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+   
+}
+.box_content_sec6_motorsport{
+    width: 35%;
+    margin: 0 0 0 50%;
+}
+
+.dis__sec6__motorsport{
+      width: 100%;
+
+     font-size: 1rem;
+    line-height: 1.5rem;
+    // margin-top: 5%;
+}
+.link__sec6__motor_sport{
+    position: relative;
+    margin: 2rem 0;
+    font-size: 1rem;
+      width: 80%;
+   
+    font-weight: 500;
+    border-bottom: 0.1vw solid grey;
+}
+
+
+}
+
+
+//--------------------------------------------------------------------------------------------
+@media screen and (min-width: 1024px) {
+    .sec2_motorsport {
+        width: 70%;
+        margin: 5% 15%;
+    }
+
+.sec2_motorsport_mobile{
+    display: none;
+}
+.title_sec2_motorsport{
+    margin: 2rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.box1__sec2_motorsport{
+    grid-area: a;
+}
+.box2__sec2_motorsport{
+    grid-area: b;
+}
+.box3__sec2_motorsport{
+    grid-area: c;
+}
+.box1__immage__sec2_motorsport{
+    width: 100%;
+}
+.immage1__sec2_motorsport{
+    width: 100%;
+    height: auto;
+}
+.date1__sec2_motorsport{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.title1__sec2_motorsport{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    height: 5.4rem;
+    overflow: hidden;
+}
+.read_more_motorsport{
+    width: fit-content;
+ 
+    font-size: 1.2rem;
+    padding: 1rem 4rem;
+    border: 0.1vw solid rgba(128, 128, 128, 0.26);
+}
+.read_more_motorsport:hover{
+    background-color: black;
+    color: white;
+}
+
+.sec3_motorsport{
+    width: 100%;
+     position: relative;
+}
+.box__sec3__motorsport{
+    width: 100%;
+
+   
+}
+.box__image__sec3_motorsport{
+    width: 90%;
+    margin-left: -20%;
+     min-width: 1300px;
+ 
+}
+.immage1__sec3_motorsport{
+    width: 100%;
+}
+.box__sec3_motorsport_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+    // margin-left: 70%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    clip-path: polygon(70% 0, 100% 0, 100% 100%, 40% 100%);
+}
+.sec3_motorsport_title{
+    width: 27%;
+    margin-left: 65%;
+    margin-top: 8%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+   
+}
+.sec3_motorsport_dis{
+      width: 27%;
+    margin-left: 65%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    // margin-top: 5%;
+}
+
+//sec4
+.sec4_motorsport{
+    width: 100%;
+     position: relative;
+     margin: 4% 0 8% 0;
+}
+.box__sec4__motorsport{
+    width: 100%;
+    display: grid;
+     grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+   
+}
+.box__image__sec4_motorsport{
+    width: 90%;
+ min-width: 1300px;
+     grid-column: 1;
+        grid-row: 1;
+        justify-self: end;
+        transform: translateX(15%) scale(0.8);
+   
+ 
+}
+.immage1__sec4_motorsport{
+    width: 100%;
+   
+}
+.box__sec4_motorsport_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+    // margin-left: 70%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    clip-path: polygon(65% 0, 30% 100%, 0 100%, 0 0);
+}
+.sec4_motorsport_title{
+    width: 27%;
+    margin-left: 7%;
+    margin-top: 3%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+   
+}
+.immage1_logo_sec4_motorsport{
+    width: 40%;
+}
+.sec4_motorsport_dis{
+      width: 27%;
+    margin-left: 7%;
+     font-size: 1rem;
+    line-height: 1.5rem;
+    // margin-top: 5%;
+}
+.link__sec4__motorsport{
+    position: relative;
+    margin: 2rem 0;
+    font-size: 1rem;
+     width: 25%;
+    margin-left: 7%;
+    font-weight: 500;
+    border-bottom: 0.1vw solid grey;
+}
+
+
+ .link__sec4__motorsport::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0.1vw;
+        bottom: 0;
+        left: 0;
+        background-color: gray;
+        border: transparent;
+        /* Màu mặc định */
+        transition: width 0.3s, background-color 0.3s;
+        /* Thêm transition cho width và background-color */
+    }
+
+    .link__sec4__motorsport:hover::before {
+        width: 100%;
+
+        /* Chạy từ trái sang phải */
+        background-color: rgb(0, 0, 0);
+        /* Màu khi hover */
+    }
+
+
+    //sec5
+.sec5_motorsport{
+    width: 100%;
+     position: relative;
+     margin:  0;
+}
+.box__sec5__motorsport{
+    width: 100%;
+    display: grid;
+     grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+   
+}
+.box__image__sec5_motorsport{
+    width: 90%;
+
+     grid-column: 1;
+        grid-row: 1;
+        justify-self: end;
+        transform: translateX(35%) scale(0.8);
+ 
+}
+.immage1__sec5_motorsport{
+    width: 100%;
+    transform: scale(0.8);
+}
+.box__sec5_motorsport_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+    // margin-left: 70%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    clip-path: polygon(80% 0, 53% 100%, 0 100%, 0 0);
+}
+
+
+
+ .link__sec5__motorsport::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0.1vw;
+        bottom: 0;
+        left: 0;
+        background-color: gray;
+        border: transparent;
+        /* Màu mặc định */
+        transition: width 0.3s, background-color 0.3s;
+        /* Thêm transition cho width và background-color */
+    }
+
+    .link__sec5__motorsport:hover::before {
+        width: 100%;
+
+        /* Chạy từ trái sang phải */
+        background-color: rgb(0, 0, 0);
+        /* Màu khi hover */
+    }
+
+
+    //sec6
+    .sec6_motorsport{
+        width: 100%;
+       
+    }
+    .box1_sec6_motorsport{
+        width: 100%;
+         display: flex;
+         margin: 3% 0 6% 0;
+          
+    }
+     .box1_image_sec6_motorsport{
+        width: 70%;
+      
+     
+    }
+    .box2_image_sec6_motorsport{
+        width: 90%;
+      
+     
+    }
+    .immage1__sec6_motorsport{
+        width: 100%;
+        clip-path: polygon(30% 0,100% 0,70% 100%,0% 100%);
+                 transform: scale(1.55) translateX(-3%);
+         
+    }
+    .immage2__sec6_motorsport{
+       width: 100%;
+     
+               clip-path: polygon(35% 0,100% 0,100% 0%,80% 100%,9% 100%);
+               transform: scale(1.3) translateY(-22%) translateX(-4.5%);
+             
+    }
+    .box2_sec6_motorsport{
+        width: 100%;
+        position: relative;
+         transform: translateX(-24%) translateY(-10%);
+     
+    }
+.box3_image_sec6_motorsport{
+   
+   width: 100%;
+
+
+}
+
+
+    .immage3__sec6_motorsport{
+       
+           width: 60%;
+           
+  
+    }
+    .box4_image_sec6_motorsport{
+    position: absolute;
+    width: 125%;
+    height: 101%;
+    top: 0;
+    left: 0;
+    transform: translateY(-1%);
+background-color: rgb(255, 255, 255);
+    clip-path: polygon(45.5% 0, 100% 0, 100% 100%, 35% 100%);
+}
+
+
+ .link__sec6__motor_sport::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0.1vw;
+        bottom: 0;
+        left: 0;
+        background-color: gray;
+        border: transparent;
+        /* Màu mặc định */
+        transition: width 0.3s, background-color 0.3s;
+        /* Thêm transition cho width và background-color */
+    }
+
+    .link__sec6__motor_sport:hover::before {
+        width: 100%;
+
+        /* Chạy từ trái sang phải */
+        background-color: rgb(0, 0, 0);
+        /* Màu khi hover */
+    }
+
+
+
+    //sec7
+
+    .sec7__motorsport {
+        margin: 0;
+        display: grid;
+        position: relative;
+        // place-items: center;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        // gap: 1vw;
+        // background-color: aquamarine;
+        /* Có thể điều chỉnh khoảng cách giữa các phần tử */
+    }
+
+    .box1__sec7__motorsport {
+        display: grid;
+        // background-color: aqua;
+        place-items: center;
+        margin-left: -55%;
+    }
+
+    .box1__image__sec7__mortorsport {
+
+
+        width: 40%;
+        height: auto;
+        min-width: 800px;
+        margin-top: 5%;
+        // overflow: hidden;
+
+
+        // position: absolute;
+        //    top: 35%;
+
+    }
+
+    .box2__image__sec7__mortorsport {
+        width: 40%;
+        height: auto;
+
+        margin-top: -5%;
+        min-width: 800px;
+
+    }
+
+    .image1__sec7__mortorsport {
+        width: 100%;
+        margin-left: 100%;
+        clip-path: polygon(35% 0%, 100% 0%, 65% 100%, 0% 100%);
+        transform: scale(1.2);
+
+
+    }
+
+    .image2__sec7__mortorsport {
+        width: 100%;
+        clip-path: polygon(35% 0%, 100% 0%, 65% 100%, 0% 100%, 0% 70%);
+
+    }
+
+
+
+    .box2__sec7__motorsport {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        // background-color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+
+        // clip-path: polygon(55% 0%, 100% 0%, 100% 0%, 100% 100%, 20% 100%);
+
+
+    }
+   
+
+    .box2__sec7__motorsport__content {
+        width: 60%;
+        min-width: 1000px;
+        padding-left: 7%;
+        padding-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .title__sec7__motorsport {
+        width: 60%;
+         font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    }
+ 
+
+
+.dis__sec7__motorsport{
+         width: 60%;
+
+     font-size: 1rem;
+    line-height: 1.5rem;
+    // margin-top: 5%;
+}
+
+
+
+    .link__limited::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0.1vw;
+        bottom: 0;
+        left: 0;
+        background-color: gray;
+        border: transparent;
+        /* Màu mặc định */
+        transition: width 0.3s, background-color 0.3s;
+        /* Thêm transition cho width và background-color */
+    }
+
+    .link__limited:hover::before {
+        width: 100%;
+
+        /* Chạy từ trái sang phải */
+        background-color: rgb(0, 0, 0);
+        /* Màu khi hover */
+    }
+    .sec8__motorsport{
+        margin: 0;
+    }
+
+}
+

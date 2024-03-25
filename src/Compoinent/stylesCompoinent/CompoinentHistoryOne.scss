@@ -1,0 +1,91 @@
+.box_historyone {
+    width: 100%;
+    height: 100vh;
+
+    padding: 5% 0 10% 10%;
+    display: flex;
+    position: relative;
+}
+
+.box_content_historyone {
+    width: 40%;
+    padding-top: 5%;
+}
+
+.box_image_history {
+    width: 60%;
+}
+
+.title_history {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.image_history {
+    width: 100%;
+    min-width: 1000px;
+    clip-path: polygon(30% 0, 100% 0, 100% 20%, 80% 100%, 0% 100%);
+}
+
+.year_history {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    inset: 0;
+    font-size: 14rem;
+    font-weight: 700;
+    z-index: -1;
+    color: rgba(58, 58, 58, 0.123);
+}
+
+//two
+.box_history_two {
+    width: 100%;
+
+    height: 100vh;
+    position: relative;
+    padding: 5% 0;
+}
+.box_history_two_child1 {
+    display: flex;
+    width: 100%;
+    padding: 0 0% 0 20%;
+}
+.box_content_history_two {
+    width: 50%;
+}
+.box_image_history_two {
+    width: 50%;
+}
+.image_history_two1 {
+    width: 100%;
+    min-width: 500px;
+    clip-path: polygon(30% 0, 100% 0, 100% 20%, 80% 100%, 0% 100%);
+}
+.image_history_two2 {
+    width: 100%;
+    min-width: 500px;
+    clip-path: polygon(30% 0, 100% 0, 70% 100%, 0% 100%);
+}
+.box_history_two_child2 {
+    display: flex;
+    width: 100%;
+    padding: 0 10% 1% 10%;
+    margin-top: 1%;
+}
+.year_history_two {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    font-size: 14rem;
+    font-weight: 700;
+    z-index: -1;
+
+    color: rgba(58, 58, 58, 0.123);
+}
+.title_history_two {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
