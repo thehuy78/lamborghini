@@ -37,7 +37,7 @@ import Register from "./views/viewpage/Register";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/lamborghini">
       <div className="App">
         <header className="App-header">
           <Menubar />
